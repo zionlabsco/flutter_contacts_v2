@@ -77,7 +77,7 @@ public class ContactsServicePlugin implements MethodCallHandler, FlutterPlugin, 
   }
 
   private void initInstance(BinaryMessenger messenger, Context context) {
-    methodChannel = new MethodChannel(messenger, "github.com/clovisnicolas/flutter_contacts");
+    methodChannel = new MethodChannel(messenger, "github.com/zionlabsco/flutter_contacts_v2");
     methodChannel.setMethodCallHandler(this);
     this.contentResolver = context.getContentResolver();
   }

@@ -8,7 +8,7 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   const MethodChannel channel =
-      MethodChannel('github.com/clovisnicolas/flutter_contacts');
+      MethodChannel('github.com/zionlabsco/flutter_contacts_v2');
   final List<MethodCall> log = <MethodCall>[];
   channel.setMockMethodCallHandler((MethodCall methodCall) async {
     log.add(methodCall);
